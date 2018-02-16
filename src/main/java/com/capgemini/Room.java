@@ -3,6 +3,9 @@ package com.capgemini;
 import java.util.ArrayList;
 
 public class Room {
+    /**
+     * properties
+     */
 
     private Enum<ERoomType> roomType;
 
@@ -20,15 +23,42 @@ public class Room {
 
     private Enum<ERoomOccupiedBy> roomOccupiedBy;
 
-    public void checkIfAvailable(){
+    /**
+     * constructor
+     *
+     * @param roomType room type
+     * @param number   room nr
+     */
+    public Room(Enum<ERoomType> roomType, int number) {
+        this.roomType = roomType;
+        this.number = number;
+        this.isClean = true;
+        this.occupied = false;
+    }
+
+    /**
+     * this method checks which rooms are available in a given period
+     */
+    public void checkIfAvailable() {
 
     }
 
-    public void changeRoom(int number, Enum Eroomtype){
+    /**
+     * this method lets you modify the properties of the room
+     *
+     * @param number    the room number
+     * @param Eroomtype the room type
+     */
+    public void changeRoom(int number, Enum<ERoomType> Eroomtype) {
+        this.roomType = Eroomtype;
+        this.number = number;
 
     }
 
-    public void removeRoom(){
+    /**
+     * this method removes a room from the system
+     */
+    public void removeRoom() {
 
     }
 
