@@ -32,8 +32,28 @@ public class Booking {
 
     private String paymentType;
 
+    //Constructor
+    public Booking(Guest guests, Room room, Date checkinDate, Date checkoutDate, boolean wantsBreakfast,
+                   boolean wantsBabybed, Guest principleBooker, Employee employeeWhoBooked,
+                   boolean isPaid, String paymentType) {
+        this.guests = guests;
+        this.room = room;
+        this.checkinDate = checkinDate;
+        this.checkoutDate = checkoutDate;
+        this.wantsBreakfast = wantsBreakfast;
+        this.wantsBabybed = wantsBabybed;
+        this.principleBooker = principleBooker;
+        this.employeeWhoBooked = employeeWhoBooked;
+        this.isPaid = isPaid;
+        this.paymentType = paymentType;
+    }
+
     //methods
     public void determineNightsOfStay(){}
+
+    public void getPrice(){}
+
+    public void checkRoomSize(){}
 
     public void makeBooking(){}
 

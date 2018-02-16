@@ -7,7 +7,7 @@ public class Price {
     //Variables
     private ERoomType roomtype;
 
-    private int roomPrice;
+    private double roomPrice;
 
     private int nightsOfStay;
 
@@ -15,7 +15,7 @@ public class Price {
     private Date fromDateSeason;
 
     private Date UntilDateSeason;
-
+    
     //Methods
     public void constructPrice(){}
 
