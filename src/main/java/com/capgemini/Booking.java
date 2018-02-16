@@ -16,6 +16,8 @@ public class Booking {
 
     private Date checkoutDate;
 
+    private int nightsOfStay;
+
     private Price price;
 
     private boolean wantsBreakfast;
@@ -31,6 +33,8 @@ public class Booking {
     private String paymentType;
 
     //methods
+    public void determineNightsOfStay(){}
+
     public void makeBooking(){}
 
     public void cancelBooking(){}
