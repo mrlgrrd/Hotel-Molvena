@@ -4,10 +4,12 @@ import java.util.Date;
 
 public class Price {
 
-    //Variables
+    /**
+     * Variables
+     */
     private ERoomType roomtype;
 
-    private int roomPrice;
+    private double roomPrice;
 
     private int nightsOfStay;
 
@@ -16,7 +18,11 @@ public class Price {
 
     private Date UntilDateSeason;
 
-    //Methods
+    private double Discount;
+
+    /**
+     * Methods
+     */
     public void constructPrice(){}
 
     public void updatePrice(){}
