@@ -1,7 +1,7 @@
 package com.capgemini;
 
-import com.capgemini.People.Employee;
-import com.capgemini.People.Guest;
+import com.capgemini.Person.Employee;
+import com.capgemini.Person.Guest;
 
 import java.util.Date;
 

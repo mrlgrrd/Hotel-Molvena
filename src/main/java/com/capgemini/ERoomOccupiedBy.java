@@ -1,4 +1,4 @@
-package com.capgemini.People;
+package com.capgemini;
 
 public enum ERoomOccupiedBy {
     MAINTENANCE, GUESTS, AVAILABLE
