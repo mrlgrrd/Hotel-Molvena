@@ -1,7 +1,5 @@
 package com.capgemini;
 
-import com.capgemini.People.ERoomOccupiedBy;
-
 import java.util.ArrayList;
 
 public class Room {
