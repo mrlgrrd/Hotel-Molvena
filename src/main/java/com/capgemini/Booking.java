@@ -7,7 +7,9 @@ import java.util.Date;
 
 public class Booking {
 
-    //variables
+    /**
+     * Variables
+     */
     private Guest guests;
 
     private Room room;
@@ -32,7 +34,9 @@ public class Booking {
 
     private String paymentType;
 
-    //Constructor
+    /**
+     * Constructor
+     */
     public Booking(Guest guests, Room room, Date checkinDate, Date checkoutDate, boolean wantsBreakfast,
                    boolean wantsBabybed, Guest principleBooker, Employee employeeWhoBooked,
                    boolean isPaid, String paymentType) {
@@ -48,7 +52,9 @@ public class Booking {
         this.paymentType = paymentType;
     }
 
-    //methods
+    /**
+     * methods
+     */
     public void determineNightsOfStay(){}
 
     public void getPrice(){}
